@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "White Spaces: Display current issues",
+        "command": "white_spaces_display",
+        "args": { "modes": [ "eof", "extra", "trailing" ] }
+    },
+    {
+        "caption": "White Spaces: Fix current issues",
+        "command": "white_spaces_fix",
+        "args": { "modes": [ "eof", "extra", "trailing" ] }
+    }
+]
