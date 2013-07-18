@@ -3,7 +3,7 @@
 """
 White Spaces
 
-Plugin for Sublime Text 2 to manage white spaces issues
+Plugin for Sublime Text to manage white spaces issues
 
 Copyright (c) 2012 Frédéric Massart - FMCorz.net
 
@@ -13,9 +13,13 @@ Redistributions of files must retain the above copyright notice.
 http://github.com/FMCorz/WhiteSpaces
 """
 
+from sys import version_info
 from os.path import split
 import sublime, sublime_plugin
-import threading
+
+
+if version_info >= (3,):
+	xrange = range
 
 class WhiteSpaces():
 

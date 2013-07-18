@@ -1,7 +1,7 @@
 White Spaces
 ============
 
-Plugin for Sublime Text 2. Display white spaces issues such as trailing spaces, missing line at the end of file and extra spaces, and fix them.
+Plugin for Sublime Text. Display white spaces issues such as trailing spaces, missing line at the end of file and extra spaces, and fix them.
 
 Usage
 -----
@@ -15,14 +15,21 @@ See the sublime-command file to edit the commands parameters as you like.
 
 See the settings for automatic display and fix.
 
+Requirements
+------------
+
+Sublime Text 2 or 3.
+
 Installation
 ------------
 
-Clone this repository into the Packages directory. If you don't know where it is, enter the following command in the console:
+Simply clone this repository into the Packages directory.
 
-    print sublime.packages_path()
+	Preferences > Browse Packages...
 
-_To access the console press CTRL + `_
+Alternatively, add the URL of this repository to the Package Control.
+
+	Command palette > Package Control: Add Repository
 
 Settings
 --------
