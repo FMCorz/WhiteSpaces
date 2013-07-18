@@ -20,7 +20,7 @@ import threading
 class WhiteSpaces():
 
 	def __init__(self, view):
-		self.settings = sublime.load_settings('White Spaces.sublime-settings')
+		self.settings = sublime.load_settings('WhiteSpaces.sublime-settings')
 		self.view = view
 
 	def canInSyntax(self):

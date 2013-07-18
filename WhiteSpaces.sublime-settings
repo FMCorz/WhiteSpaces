@@ -1,11 +1,17 @@
 {
 	// Type of white spaces to display as you type
-	// Valid parameters: eof, extra, trailing
+	// Valid parameters:
+	// - eof
+	// - extra
+	// - trailing
 	// Empty list [ ] to disable
-	"auto_display": [ "eof", "extra", "trailing" ],
+	"auto_display": [ "eof", "trailing" ],
 
 	// Type of white spaces to fix upon saving
-	// Valid parameters: eof, extra, trailing
+	// Valid parameters:
+	// - eof
+	// - extra
+	// - trailing
 	// Empty list [ ] to disable
  	"fix_on_save": [ ],
 
@@ -13,5 +19,5 @@
 	// [ ] for none
 	// [ "*" ] for any
 	// [ "PHP", "Python" ] this should match the packages directory names
-	"limit_to_syntax": [ "PHP", "Python" ]
+	"limit_to_syntax": [ "PHP", "Python", "JavaScript" ]
 }
